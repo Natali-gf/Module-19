@@ -97,6 +97,7 @@ body {
 .todo__input {
   margin: 0;
   border: none;
+  outline: none;
   border-radius: 0;
   width: 75%;
   padding: 10px;
@@ -116,6 +117,7 @@ body {
   cursor: pointer;
   transition: 0.3s;
   border-radius: 0;
+  border: none;
 }
 
 .todo__add-button:hover {
