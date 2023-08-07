@@ -1,30 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>SF 20 TS Final Task</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./style/index.css" />
+    <title>SF 20 TS Final Task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style/index.css" />
 </head>
-
 <body>
-  <main class="todo">
-    <div class="todo__header">
-      <h2 class="todo__title">My To Do List</h2>
-      <input type="text" id="input" class="todo__input" placeholder="Title...">
-      <button onclick="newElement()" class="todo__add-button">Add</button>
-    </div>
-
-    <ul id="todoList" class="todo__list list">
-      <li class="list__item">Hit the gym</li>
-      <li class="list__item checked">Pay bills</li>
-      <li class="list__item">Meet George</li>
-      <li class="list__item">Buy eggs</li>
-      <li class="list__item">Read a book</li>
-      <li class="list__item">Organize office</li>
-    </ul>
-  </main>
-
-  <script src="./build/index.js"></script>
+    <main class="todo">
+        <div class="todo__header">
+            <h2 class="todo__title">My To Do List</h2>
+            <input type="text" id="input" class="todo__input" placeholder="Title...">
+            <button id="addButton" class="todo__add-button">Add</button>
+        </div>
+        <ul id="todoList" class="todo__list list"></ul>
+    </main>
+    <script src="./build/index.js" type="module"></script>
 </body>
 </html>
