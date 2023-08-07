@@ -22,7 +22,6 @@ for (let i = 0; i < closeButtons.length; i++) {
 const list = document.querySelector('ul');
 list.addEventListener('click', (e) => {
     let target = e.target;
-    console.log(target.tagName);
     if (target.tagName === 'LI') {
         target.classList.toggle('checked');
     }
@@ -59,4 +58,3 @@ function newElement() {
         }
     });
 }
-console.log('finish');

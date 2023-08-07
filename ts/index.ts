@@ -13,7 +13,7 @@ const closeButtons: HTMLCollectionOf<Element> = document.getElementsByClassName(
 for (let i: number = 0; i < closeButtons.length; i++) {
   let closeButton: Element = closeButtons[i];
 	closeButton.addEventListener("click", (): void => {
-    const li = closeButton.parentElement;
+    const li: HTMLElement = closeButton.parentElement;
     if(li){
       li.style.display = "none"
     }
@@ -24,7 +24,6 @@ for (let i: number = 0; i < closeButtons.length; i++) {
 const list: HTMLUListElement = document.querySelector('ul');
 list.addEventListener('click', (e): void => {
   let target: HTMLElement = <HTMLElement>e.target;
-  console.log(target.tagName)
   if (target.tagName === 'LI') {
     target.classList.toggle('checked');
   }
@@ -63,4 +62,3 @@ function newElement(): void {
     }
   })
 }
-console.log('finish')
