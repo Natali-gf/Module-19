@@ -1,0 +1,17 @@
+{
+  "name": "sf-ts-final-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "http-server -p 5566",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
