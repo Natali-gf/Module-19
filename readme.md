@@ -1,9 +1,3 @@
 Popova Nataliia
 
-Всё должно быть готово для запуска.
-Если вдруг что-то пошло не так, можно:
-- очистить билд (script "clear")
-- заново скомпилировать ts(использовать script "build");
-- перезапустить запустить сервер (script "start");
-
-Также можно использовать Live-server (plagin). Для компиляции "на лету" - использовать script "watch"
+Transforming a legacy JS project into TS
